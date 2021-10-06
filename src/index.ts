@@ -19,7 +19,7 @@ calculador = (num1:number, num2:number, operacion:string) =>  { //Function type
  }
 }
 
-//Call signatures (Alias de tipo)
+//Call signature (Alias de tipo)
 
 let humano: (persona: {nombre: string, edad: number}) => void;
 
