@@ -13,14 +13,13 @@ let calculador: (a: number, b: number, c: string) => number; //Signature
 calculador = (num1:number, num2:number, operacion:string) =>  { //Function type
  if(operacion === "suma"){
      return num1 + num2;
-     console.log(num1 + num2);
  } else{
-     return num1 - num2
+     return num1 - num2;
  }
 }
 
-saludador("Valeria", "Hola");
-calculador(3,4,"suma");
+saludador("Valeria", "hola");
+console.log(calculador(3,4,"suma"));
 
 
 

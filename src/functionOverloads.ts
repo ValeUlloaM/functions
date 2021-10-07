@@ -1,8 +1,8 @@
 //Function Overloads
 
-function cedula(): number;
-function cedula(quantity: number): number[];
-function cedula (quantity?: number): number | number[]{ //Optional parameter
+function cedula(): number; //Sobrecarga
+function cedula(quantity: number): number; //Sobrecarga
+function cedula (quantity?: number): number | number[]{ //Funcion de implementacion
     if(!quantity) return Math.random()
 
     const arr = []

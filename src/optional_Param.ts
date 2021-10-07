@@ -13,5 +13,5 @@ function propiedadesCarro (c: Carro):string {
         return datos + " " + "y no conocemos el año del modelo"
     }
 }
-var carro:Carro= {color: "rojo", marca: "chevrolet", año: 2013}
+let carro:Carro= {color: "rojo", marca: "chevrolet", año: 2013}
 console.log(propiedadesCarro (carro))

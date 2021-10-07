@@ -14,8 +14,10 @@ perro.nombre = 'Alberto'; //String
 
 //Se puede modificar los valores del objeto creado inicialmente
 perro = {
-    nombre: 'Vivente',
+    nombre: 'Vicente',
     color: 'naranja',
     raza: 'Labrador',
     edad: 2
 }
+
+console.log(perro.nombre);

@@ -4,7 +4,7 @@
 
 function NeverExample(): never {
     while (true){
-        console.log("Never")
+      console.log("Never")
     }
 }
 
@@ -12,8 +12,9 @@ let example: never = NeverExample();
 
 console.log(example);
 
-// Otro ejemplo:
+ //Otro ejemplo:
 
 function throwError(): never {
-    throw new Error("Never")
+     throw new Error("Never")
 }
+
